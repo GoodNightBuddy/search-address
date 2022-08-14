@@ -1,0 +1,32 @@
+{
+  "name": "understanding-typescript",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "Zelenskiy",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/googlemaps": "^3.43.3",
+    "axios": "^0.27.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "dotenv": "^16.0.1",
+    "dotenv-webpack": "^8.0.0"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}
